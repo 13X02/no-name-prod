@@ -1,0 +1,18 @@
+/* Hide #nav-links by default */
+#nav-links {
+    display: none;
+}
+
+/* Show #nav-links on large screens */
+@media (min-width: 768px) {
+    #nav-links {
+        display: flex;
+    }
+}
+
+/* Hide hamburger menu on large screens */
+@media (min-width: 768px) {
+    #hamburger-menu {
+        display: none;
+    }
+}
